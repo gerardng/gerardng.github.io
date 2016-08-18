@@ -162,7 +162,7 @@ aside {
 }
 .navbar-default .navbar-header .navbar-brand:hover,
 .navbar-default .navbar-header .navbar-brand:focus {
-  color: #eb3812;
+  color: #196CCB;
 }
 .navbar-default .navbar-header .navbar-toggle {
   font-weight: 700;
@@ -434,9 +434,9 @@ fieldset[disabled] .btn-default.active {
 .btn-primary:active,
 .btn-primary.active,
 .open > .dropdown-toggle.btn-primary {
-  color: white;
-  background-color: #ee4b28;
-  border-color: #ed431f;
+  color: #196CCB;
+  background-color: white;
+  border-color: #196CCB;
 }
 .btn-primary:active,
 .btn-primary.active,
@@ -516,6 +516,14 @@ footer .footer-col {
 footer .footer-below {
   padding: 25px 0;
   background-color: #233140;
+}
+
+.hi-icon:hover {
+    color: white;
+}
+
+.hi-icon {
+  color: #126AA1;
 }
 
 
