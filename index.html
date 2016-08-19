@@ -24,7 +24,10 @@
 
     <!-- Theme CSS -->
     <link href="css/creative.css" rel="stylesheet">
-    <link href="css/hera.css" rel="stylesheet">
+    <link href="css/layla.css" rel="stylesheet">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Fjalla+One|Merriweather" rel="stylesheet">
 
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -72,7 +75,10 @@
 
     <div class="hero">
 
-        <h1><span>Gerard Ng</span><br>Developer, Hacker, Gamer</h1>
+        <br><br><br>
+        <h1 class="f1">Gerard is a:</h1>
+        <div class="typed f2"></div>
+
 
         <div class="mouse">
             <span></span>
@@ -92,7 +98,12 @@
                         <p class="">I'm a software developer enthustiastic about building websites, mobile applications and a proud member of Team Mystic! I am about to complete the rigorous <a href="http://www.bcit.ca/study/programs/5500dipma">BCIT Computer Systems Technology</a> program by December 2016. I am passionate about programming and technology as a whole. I grew up in the Philippines but spent my entire post-secondary life in Richmond, BC.</p>
                         </div>
                 </div>
-                
+         </div>
+    </section>  
+
+
+    <section class="" id="technical">
+        <div class="container">             
                 <div class="row">
                     <div class="col-md-8 col-md-offset-2 text-center">
                         <h3>Technical Summary</h3>
@@ -437,6 +448,19 @@
 
     <!-- Theme JavaScript -->
     <script src="js/creative.js"></script>
+
+    <!-- Typed.js -->
+    <script src="js/typed.js"></script>
+    <script>
+        jQuery(document).ready(function( $ ) {
+              $(".typed").typed({
+                strings: ["Software Developer.", "Web Designer.", "Gamer."],
+                typeSpeed: 60,
+                backDelay: 2000,
+                loop: true
+              });
+        });
+    </script>
 
 </body>
 
